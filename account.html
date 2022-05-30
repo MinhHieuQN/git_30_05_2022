@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Đăng kí</title>
+</head>
+<body>
+        <header>
+                <a href="index.html"><img id="imgLogo" src="img/logo.png" alt=""></a> 
+         </header>
+     
+         <nav>
+             <ul id="mainMenu">
+                 <li id="green"><a href="index.html">Trang chủ</a></li>
+                 <li id="blue"><a href="about.html"> Giới thiệu</a></li>
+                 <li id="pink"><a href="news.html"> Tin tức</a></li>
+                 <li id="orange"><a href="sale.html"> Khuyến mãi</a></li>
+                 <li id="purple"><a href="account.html"> Đăng kí</a></li>
+             </ul>
+         </nav>
+         <h2 class="building">Đăng ký tài khoản</h2>
+         <fieldset>
+             <legend><h3>Thông tin tài khoản</h3></legend>
+             Tên tài khoản: <input type="text" id="acc">
+             <br>
+             Mật khẩu: <input type="password" id="pwd">
+             <br>
+             Xác nhận mật khẩu: <input type="password" id="confirmpwd">
+         </fieldset>
+         <fieldset>
+                <legend><h3>Thông tin cá nhân</h3></legend>
+                Họ tên: <input type="text" id="name">
+                <br>
+                Email: <input type="text"> 
+                <select name="lstEmail">
+                    <option value="a">@gmail.com</option>
+                    <option value="b">@icloud.com</option>
+                    <option value="c">@yahoo.com</option>
+                </select>
+                <br>
+                SĐT: <input type="text">
+                <br>
+                Đia chỉ: <textarea cols="30" rows="10"></textarea>
+                <br>
+                CMND: <input type="text">
+                <br>
+                Giới tính: <input type="radio" name="gt" checked>Nam
+                <input type="radio" name="gt">Nữ
+                <br>
+                Ảnh đại diện: <input type="file">
+            </fieldset>
+            <fieldset>
+                <button type="submit" onclick="Registry()">Đăng ký</button>
+                <button type="reset">Hủy bỏ</button>
+            </fieldset>
+</body>
+</html>

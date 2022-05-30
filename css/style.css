@@ -1,0 +1,51 @@
+header{
+    background-image: url("../img/header_bg.jpg");
+    background-repeat: no-repeat;
+    height: 380px;
+}
+ul#mainMenu li {
+    display: inline;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0 95px;
+    text-align: justify;
+}
+ul#mainMenu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+ul#mainMenu li#green:hover{
+    background-color: green;
+}
+ul#mainMenu li#blue:hover{
+    background-color: blue;
+}
+ul#mainMenu li#pink:hover{
+    background-color: pink;
+}
+ul#mainMenu li#orange:hover{
+    background-color: orange;
+}
+ul#mainMenu li#purple:hover{
+    background-color: purple;
+}
+
+h3{
+    text-align: center;
+}
+ #key{
+     margin-left:40px;
+ }
+
+ #tblIcon img{
+     width: 270px;
+ }
+
+ .info{
+     font-weight: bold;
+     font-size: 30px;
+ }
+ .building{
+     text-align: center;
+ }
